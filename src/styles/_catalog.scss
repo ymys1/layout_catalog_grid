@@ -7,22 +7,16 @@ $cardWidth: 200px;
 
   justify-content: center;
 
-  @media (max-width: 1023.5px) {
-    & {
-      grid-template-columns: repeat(3, $cardWidth);
-    }
+  @media (max-width: 1023px) {
+    grid-template-columns: repeat(3, $cardWidth);
   }
 
-  @media (max-width: 767.5px) {
-    & {
-      grid-template-columns: repeat(2, $cardWidth);
-    }
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, $cardWidth);
   }
 
-  @media (max-width: 487.5px) {
-    & {
-      grid-template-columns: repeat(1, $cardWidth);
-    }
+  @media (max-width: 487px) {
+    grid-template-columns: repeat(1, $cardWidth);
   }
 
   &__card {
